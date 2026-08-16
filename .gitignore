@@ -1,0 +1,49 @@
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+service-account*.json
+google-services.json
+GoogleService-Info.plist
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+**/ios/Pods/
+**/android/.gradle/
+**/android/local.properties
+*.iml
+
+# ML artefacts
+*.ckpt
+*.h5
+*.pb
+datasets/
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Office temp files
+~$*
